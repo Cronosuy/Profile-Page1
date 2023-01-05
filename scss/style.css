@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/fondo-principal.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card {
+  height: 600px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2, 1fr;
+  grid-template-areas: "cardBody" "cardFooter";
+  background: rgba(20, 20, 20, 0.708);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 0.3px solid rgba(10, 10, 10, 0.33);
+}
+
+.cardBody {
+  grid-area: cardBody;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(20, 20, 20, 0.708);
+  border-radius: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 0.3px solid rgba(10, 10, 10, 0.33);
+  margin: 20px 20px 20px 20px;
+}
+.cardBody .imgPerfil {
+  height: 170px;
+  width: 170px;
+  border-radius: 80px;
+}
+.cardBody h1 {
+  padding-top: 50px;
+  color: white;
+  font-size: 60px;
+}
+.cardBody h4 {
+  padding-top: 20px;
+  font-size: 30px;
+  color: rgb(100, 100, 100);
+}
+
+.cardFooter {
+  grid-area: cardFooter;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px 20px 20px;
+  background: rgba(20, 20, 20, 0.708);
+  border-radius: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 0.3px solid rgba(10, 10, 10, 0.33);
+}
+.cardFooter .redSocial {
+  text-decoration: none;
+}
+.cardFooter .redSocial .facebook,
+.cardFooter .redSocial .instagram,
+.cardFooter .redSocial .whatsapp,
+.cardFooter .redSocial .email {
+  font-size: 40px;
+  padding: 0px 20px 0px 20px;
+}
+.cardFooter .redSocial .facebook {
+  color: rgba(24, 118, 242, 0.686);
+}
+.cardFooter .redSocial .facebook:hover {
+  color: #1877f2;
+}
+.cardFooter .redSocial .instagram {
+  color: rgba(212, 48, 137, 0.686);
+}
+.cardFooter .redSocial .instagram:hover {
+  color: #d43089;
+}
+.cardFooter .redSocial .whatsapp {
+  color: rgba(77, 194, 71, 0.686);
+}
+.cardFooter .redSocial .whatsapp:hover {
+  color: #4dc247;
+}
+.cardFooter .redSocial .email {
+  color: rgba(245, 222, 179, 0.686);
+}
+.cardFooter .redSocial .email:hover {
+  color: #f5deb3;
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: 450px;
+    width: 450px;
+  }
+  .card .cardBody .imgPerfil {
+    width: 140px;
+    height: 140px;
+  }
+  .card .cardBody h1 {
+    padding-top: 20px;
+    font-size: 40px;
+  }
+  .card .cardBody h4 {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .card .cardFooter .redSocial .facebook,
+.card .cardFooter .redSocial .instagram,
+.card .cardFooter .redSocial .whatsapp,
+.card .cardFooter .redSocial .email {
+    font-size: 35px;
+    padding: 0px 20px 0px 20px;
+  }
+}
+@media (max-width: 480px) {
+  .card {
+    height: 500px;
+    width: 350px;
+  }
+  .card .cardBody .imgPerfil {
+    width: 120px;
+    height: 120px;
+  }
+  .card .cardBody h1 {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  .card .cardBody h4 {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  .card .cardFooter .redSocial .facebook,
+.card .cardFooter .redSocial .instagram,
+.card .cardFooter .redSocial .whatsapp,
+.card .cardFooter .redSocial .email {
+    font-size: 30px;
+    padding: 0px 20px 0px 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
