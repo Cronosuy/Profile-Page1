@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/fondo-principal.jpg);
+  background-image: url(/img/paper-cut-abstract-background-3d-clean-dark-carving-art-paper-craft-black-waves-minimalistic-modern-design-for-business-presentations.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,9 +129,9 @@ body {
     font-size: 20px;
   }
   .card .cardFooter .redSocial .facebook,
-.card .cardFooter .redSocial .instagram,
-.card .cardFooter .redSocial .whatsapp,
-.card .cardFooter .redSocial .email {
+  .card .cardFooter .redSocial .instagram,
+  .card .cardFooter .redSocial .whatsapp,
+  .card .cardFooter .redSocial .email {
     font-size: 35px;
     padding: 0px 20px 0px 20px;
   }
@@ -154,10 +154,10 @@ body {
     font-size: 15px;
   }
   .card .cardFooter .redSocial .facebook,
-.card .cardFooter .redSocial .instagram,
-.card .cardFooter .redSocial .whatsapp,
-.card .cardFooter .redSocial .email {
+  .card .cardFooter .redSocial .instagram,
+  .card .cardFooter .redSocial .whatsapp,
+  .card .cardFooter .redSocial .email {
     font-size: 30px;
     padding: 0px 20px 0px 20px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
